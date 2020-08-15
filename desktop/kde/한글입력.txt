@@ -12,5 +12,9 @@ export XMODIFIERS=@im=fcitx
 >> reboot computer
 sudo reboot
 
-fcitx-configtool
->> Global config -> Trigger Input Method 
+fcitx-configtool 실행 후 아래의 탭으로 이동
+>> Global config 
+Trigger Input Method 메뉴에서 한/영 전환키 설정 
+
+>> 크롬등의 브라우저 열어서 한영타 테스트 
+
