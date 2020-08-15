@@ -15,6 +15,10 @@ sudo reboot
 fcitx-configtool 실행 후 아래의 탭으로 이동
 >> Global config 
 Trigger Input Method 메뉴에서 한/영 전환키 설정 
+Extra key for Trigger Input Method 를 disabled로 설정 
 
 >> 크롬등의 브라우저 열어서 한영타 테스트 
 
+>> 테스트 결과 
+- 일반적인 입력은 대부분 잘됨
+- chrome 브라우저에서 facebook으로 접속후에 글을 입력할 시에, 타이핑이 빠르면 글자가 씹힌다. 
