@@ -34,7 +34,7 @@ https://webcache.googleusercontent.com/search?q=cache:ddVIdGZPIR8J:https://forum
 
 테스트 환경 
 uname -ar
-Linux dcha-nuc1 5.7.9-1-MANJARO #1 SMP PREEMPT Thu Jul 16 08:20:05 UTC 2020 x86_64 GNU/Linux
+5.7.9-1-MANJARO
 
 plasmashell --version
 plasmashell 5.19.3
