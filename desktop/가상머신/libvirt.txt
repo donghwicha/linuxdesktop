@@ -1,6 +1,6 @@
 virt-manger 실행시 계속 비밀번호 입력해야 하는 경우, 아래오 같이 하면 비번 입력을 그냥 넘어간다. 
 
-1) 아래와 타이 isInGroup의 값을 확인 -> 아래는 libvirt 이다. 
+1) 아래와 같이 isInGroup의 값을 확인 -> 아래는 libvirt 이다. 
 
 sudo cat /usr/share/polkit-1/rules.d/50-libvirt.rules
 
