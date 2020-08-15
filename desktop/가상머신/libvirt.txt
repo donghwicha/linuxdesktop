@@ -1,0 +1,16 @@
+virt-manger 실행시 계속 비밀번호 입력해야 하는 경우
+
+1) 아래와 타이 isInGroup의 값을 확인 -> 아래는 libvirt 이다. 
+
+sudo cat /usr/share/polkit-1/rules.d/50-libvirt.rules
+
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.libvirt.unix.manage" &&
+        subject.isInGroup("libvirt")) {
+        return polkit.Result.YES;
+    }
+});
+
+2) 내 사용자를 추가해준다. 
+
+sudo usermod -a -G libvirt $(whoami)
