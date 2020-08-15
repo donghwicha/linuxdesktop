@@ -21,4 +21,4 @@ Extra key for Trigger Input Method 를 disabled로 설정
 
 >> 테스트 결과 
 - 일반적인 입력은 대부분 잘됨
-- chrome 브라우저에서 facebook으로 접속후에 글을 입력할 시에, 타이핑이 빠르면 글자가 씹힌다. 
+- chrome 브라우저에서 facebook으로 접속후에 글을 입력할 시에, 타이핑이 빠르면 글자가 씹힌다. -> facebook은 firefox로 이용
