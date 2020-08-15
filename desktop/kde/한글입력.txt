@@ -1,0 +1,16 @@
+1) Manjaro
+
+sudo pacman -Sy   fcitx-im fcitx-hangul fcitx-configtool
+
+vi ~/.xprofile
+#export LC_ALL=ko_KR.UTF-8
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export QT4_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
+>> reboot computer
+sudo reboot
+
+fcitx-configtool
+>> Global config -> Trigger Input Method 
