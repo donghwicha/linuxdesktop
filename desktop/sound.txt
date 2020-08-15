@@ -33,7 +33,7 @@ options snd_hda_intel index=0
 https://webcache.googleusercontent.com/search?q=cache:ddVIdGZPIR8J:https://forum.manjaro.org/t/dummy-output-problem-17-2-2020/124744+&cd=1&hl=en&ct=clnk&gl=sg
 
 테스트 환경 
-uname -ar
+uname -r
 5.7.9-1-MANJARO
 
 plasmashell --version
