@@ -25,3 +25,9 @@ options snd_hda_intel index=0
 >> reboot 
 
 >> 블루투스 접속 및 youtube 접속해서 테스트 
+
+
+
+
+출처
+https://webcache.googleusercontent.com/search?q=cache:ddVIdGZPIR8J:https://forum.manjaro.org/t/dummy-output-problem-17-2-2020/124744+&cd=1&hl=en&ct=clnk&gl=sg
