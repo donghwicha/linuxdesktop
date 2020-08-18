@@ -1,0 +1,7 @@
+컴퓨터 전원관리 관련
+>> 5분 후에 모니터가 꺼지는데 이걸 끄려면 
+---> system settings -> Energy saving -> 체크 해제(screen evergy saving, Suspend session)
+
+모니터 자동 로그아웃 
+>> 자동 로그아웃되어서 매번 비번 비번 입력이 귀찮은 경우 
+---> system settings -> Workspace Behavior -> Screen Locking -> Lock screen에 체크 박스 두개 모두 해제 
