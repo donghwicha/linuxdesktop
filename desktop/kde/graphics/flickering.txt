@@ -8,3 +8,12 @@ Section "Device"
   Driver      "intel"
   Option      "DRI"          "true"
 EndSection
+
+
+
+
+
+>> credit
+https://www.youtube.com/watch?v=OhSmdRXQwiw&feature=youtu.be&t=568 
+https://askubuntu.com/a/984175 
+https://learnubuntumate.weebly.com/screen-tearing-on-intel-graphics.html
