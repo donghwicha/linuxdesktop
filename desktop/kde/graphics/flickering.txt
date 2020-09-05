@@ -1,0 +1,10 @@
+>> 동영상 레코딩하면 화면이 깜박이는 경우 
+>> 아래와 같이 파일 생성후 재부팅 
+
+sudo cat /etc/X11/xorg.conf.d/20-intel-graphics.conf
+
+Section "Device"
+  Identifier  "Intel Graphics"
+  Driver      "intel"
+  Option      "DRI"          "true"
+EndSection
