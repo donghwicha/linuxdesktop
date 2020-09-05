@@ -11,7 +11,14 @@ EndSection
 
 
 
+>> 테스트 환경
+sudo inxi -G
+Graphics:  Device-1: Intel driver: i915 v: kernel 
+           Display: server: X.Org 1.20.8 driver: intel s-res: 1920x1080 
+           OpenGL: renderer: Mesa Intel UHD Graphics (CML GT2) v: 4.6 Mesa 20.1.6 
 
+sudo uname -r
+5.7.17-2-MANJARO
 
 >> credit
 https://www.youtube.com/watch?v=OhSmdRXQwiw&feature=youtu.be&t=568 
