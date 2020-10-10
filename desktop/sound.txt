@@ -1,15 +1,19 @@
 >> issue 
-- nuc computer can not detect headset: linux headphones(unplugged)
+- nuc computer can not detect headset even if plugged
+- the status of headset is displayed as -> linux headphones(unplugged)
 
 >> how to solve 
 - set profile of pulseaudio to analog stero duplex
-- add file as shown below 
+- create a file as shown below 
 
 cat /etc/modprobe.d/alsa-base.conf 
 options snd-hda-intel model=dell-headset-multi
 
 - reboot 
 
-- verfiy ( Headphones output is "available: yes" )
+>> how to verfiy 
+- run command below and check if Headphones output is "available: yes" 
  pacmd list-cards | grep analog-output-headphones
                 analog-output-headphones: Headphones (priority 9900, latency offset 0 usec, available: yes)
+
+- open online meeting and create a room and test voice 
